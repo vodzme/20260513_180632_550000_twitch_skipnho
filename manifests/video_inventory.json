@@ -1,0 +1,73 @@
+{
+    "folder": "20260513_180632_550000_twitch_skipnho",
+    "generated_at": "2026-05-30T16:35:56+00:00",
+    "source_video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration_seconds": 24956.915333,
+        "size_bytes": 19964836532,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "bitrate_kbps": 6400,
+        "format_name": "mpegts"
+    },
+    "video_output": {
+        "id": 197,
+        "uuid": null,
+        "format": "ts",
+        "totals": {
+            "size_bytes": 19964836532,
+            "duration_seconds": 24956.915333
+        },
+        "summary": {
+            "descriptors_count": 1,
+            "valid_segments_count": 1,
+            "invalid_segments_count": 0,
+            "partial": false
+        }
+    },
+    "segments": [
+        {
+            "attempt": 1,
+            "attempt_id": 228,
+            "file_name": "seg_0001.ts",
+            "relative_path": "2026_05_13_011554193_twitch_skipnho/seg_0001.ts",
+            "absolute_path": "/var/www/html/recorders/2026_05_13_011554193_twitch_skipnho/seg_0001.ts",
+            "size_bytes": 19964836532,
+            "format": "ts",
+            "duration_seconds": 24956.915333,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 24956.915333,
+                    "size": 19964836532
+                }
+            }
+        }
+    ],
+    "profiles": {
+        "base_quality": "1080p",
+        "base_slug": "1080",
+        "profiles": [
+            {
+                "quality": "1080p",
+                "slug": "1080",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "contract": {
+        "inputs": {
+            "video_segments_count": 1,
+            "video_output_id": 197,
+            "input_signature": "01a8aff5242fcbe730c24df7173683fc33929c8825fb677d4ad6672860cda736"
+        },
+        "validations": {
+            "totals_size_bytes": 19964836532,
+            "totals_duration_seconds": 24956.915333
+        }
+    }
+}
